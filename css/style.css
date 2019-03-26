@@ -101,3 +101,42 @@ header img {
 .feature {
   overflow: hidden;
 }
+
+/* voices */
+
+.voices {
+  background: #f8f8f8;
+}
+
+.voices .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.voice {
+  width: 200px;
+  background: #fff;
+  position: relative;
+  box-sizing: border-box;
+  padding: 60px 40px 25px;
+}
+
+.voice img {
+  border-radius: 50%;
+  border: 10px solid #fff;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: -55px;
+}
+
+.voice h1 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.voices .section-title {
+  margin-bottom: 95px;
+}
