@@ -21,6 +21,8 @@ body {
   text-align: center;
   font-weight: normal;
   font-size: 24px;
+  margin-bottom: 60px;
+  margin-top: 0;
 }
 
 .section-title::after {
@@ -72,3 +74,30 @@ header img {
 }
 
 /* feature */
+
+.feature h1 {
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.feature .desc {
+  width: 360px;
+}
+
+.feature:nth-of-type(odd) .desc {
+  float: right;
+  padding-left: 40px;
+}
+
+.feature:nth-of-type(even) .desc {
+  float: left;
+  padding-right: 40px;
+}
+
+.feature:not(:last-child) {
+  margin-bottom: 60px;
+}
+
+.feature {
+  overflow: hidden;
+}
