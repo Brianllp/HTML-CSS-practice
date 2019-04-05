@@ -152,6 +152,14 @@ header img {
   margin-bottom: 15px;
 }
 
+/* 上に戻るボタン */
+#back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+}
+
+
 /* footer */
 
 footer {
